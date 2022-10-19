@@ -21,3 +21,9 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\HP\Docu
 !MESSAGE Problems occurred closing the selected resources.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2022-10-19 12:26:17.321
 !MESSAGE The project description file (.project) for 'Muestra' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-19 14:50:18.745
+!MESSAGE Indexed 'Plantilla' (23 sources, 82 headers) in 3.53 sec: 5,610 declarations; 32,692 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0052%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-19 15:29:15.157
+!MESSAGE Indexed 'Ejemplo_GPIO_1V' (21 sources, 81 headers) in 2.28 sec: 4,233 declarations; 17,718 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0091%)
