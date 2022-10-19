@@ -1,17 +1,17 @@
-16:11:01 **** Incremental Build of configuration Debug for project Ejemplo_GPIO_1V ****
+16:42:00 **** Incremental Build of configuration Debug for project Ejemplo2_LCD ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "Ejemplo_GPIO_1V.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\HP\Documents\GitHub\STM32_CAS_UTEC\Ejemplo_GPIO_1V\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo_GPIO_1V.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ejemplo_GPIO_1V.elf
+arm-none-eabi-gcc -o "Ejemplo2_LCD.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\HP\Documents\GitHub\STM32_CAS_UTEC\Ejemplo2_LCD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ejemplo2_LCD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ejemplo2_LCD.elf
  
-arm-none-eabi-size   Ejemplo_GPIO_1V.elf 
-arm-none-eabi-objdump -h -S  Ejemplo_GPIO_1V.elf  > "Ejemplo_GPIO_1V.list"
-arm-none-eabi-objcopy  -O ihex  Ejemplo_GPIO_1V.elf  "Ejemplo_GPIO_1V.hex"
+arm-none-eabi-size   Ejemplo2_LCD.elf 
+arm-none-eabi-objdump -h -S  Ejemplo2_LCD.elf  > "Ejemplo2_LCD.list"
+arm-none-eabi-objcopy  -O ihex  Ejemplo2_LCD.elf  "Ejemplo2_LCD.hex"
    text	   data	    bss	    dec	    hex	filename
-   5780	     20	   1572	   7372	   1ccc	Ejemplo_GPIO_1V.elf
+   6052	     20	   1572	   7644	   1ddc	Ejemplo2_LCD.elf
 Finished building: default.size.stdout
  
-Finished building: Ejemplo_GPIO_1V.hex
-Finished building: Ejemplo_GPIO_1V.list
+Finished building: Ejemplo2_LCD.hex
+Finished building: Ejemplo2_LCD.list
  
  

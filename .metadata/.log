@@ -27,3 +27,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\HP\Docu
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-10-19 15:29:15.157
 !MESSAGE Indexed 'Ejemplo_GPIO_1V' (21 sources, 81 headers) in 2.28 sec: 4,233 declarations; 17,718 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0091%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-19 16:27:41.460
+!MESSAGE Indexed 'Ejemplo2_LCD' (21 sources, 81 headers) in 1.37 sec: 4,233 declarations; 17,718 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0091%)
