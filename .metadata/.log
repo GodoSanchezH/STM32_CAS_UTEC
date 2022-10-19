@@ -1,0 +1,23 @@
+!SESSION 2022-10-19 04:32:21.462 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_PE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\HP\Documents\GitHub\STM32_CAS_UTEC
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-19 04:32:38.524
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-19 04:32:38.748
+!MESSAGE Log4j initialized with config file C:\Users\HP\Documents\GitHub\STM32_CAS_UTEC\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-19 04:32:46.761
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-19 04:35:40.205
+!MESSAGE Indexed 'Muestra' (25 sources, 84 headers) in 5 sec: 6,219 declarations; 39,158 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0044%)
+
+!ENTRY org.eclipse.ui.ide 2 4 2022-10-19 12:26:17.321
+!MESSAGE Problems occurred closing the selected resources.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2022-10-19 12:26:17.321
+!MESSAGE The project description file (.project) for 'Muestra' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
