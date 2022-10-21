@@ -192,3 +192,6 @@ java.net.UnknownHostException: download.eclipse.org
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-10-21 16:59:09.998
 !MESSAGE Indexed 'Ejemplo1_GPIO_P' (23 sources, 82 headers) in 3.73 sec: 5,610 declarations; 32,692 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0052%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-21 18:12:36.814
+!MESSAGE Indexed 'Ejemplo1_gpio2_p' (23 sources, 82 headers) in 2.45 sec: 5,610 declarations; 32,692 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0052%)
