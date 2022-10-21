@@ -189,3 +189,6 @@ java.net.UnknownHostException: download.eclipse.org
 	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
 	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-21 16:59:09.998
+!MESSAGE Indexed 'Ejemplo1_GPIO_P' (23 sources, 82 headers) in 3.73 sec: 5,610 declarations; 32,692 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0052%)
