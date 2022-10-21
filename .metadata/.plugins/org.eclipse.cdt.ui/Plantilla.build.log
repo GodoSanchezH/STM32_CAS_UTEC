@@ -1,0 +1,10 @@
+16:31:08 **** Incremental Build of configuration Debug for project Plantilla ****
+make -j8 all 
+arm-none-eabi-size   Plantilla.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6172	     20	   1572	   7764	   1e54	Plantilla.elf
+Finished building: default.size.stdout
+ 
+
+16:31:09 Build Finished. 0 errors, 0 warnings. (took 477ms)
+
