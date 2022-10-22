@@ -1,0 +1,10 @@
+10:05:22 **** Incremental Build of configuration Debug for project Ejemplo3_InterrupcionesExt ****
+make -j8 all 
+arm-none-eabi-size   Ejemplo3_InterrupcionesExt.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6352	     20	   1572	   7944	   1f08	Ejemplo3_InterrupcionesExt.elf
+Finished building: default.size.stdout
+ 
+
+10:05:23 Build Finished. 0 errors, 0 warnings. (took 416ms)
+

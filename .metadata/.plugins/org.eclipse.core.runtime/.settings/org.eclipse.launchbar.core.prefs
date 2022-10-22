@@ -1,9 +1,10 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Plantilla Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo1_GPIO_P Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo1_gpio2_p Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Plantilla Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo1_GPIO_P\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo1_GPIO_P\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ejemplo1_gpio2_p\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Plantilla\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Plantilla\ Debug/activeLaunchTarget=null\:---
