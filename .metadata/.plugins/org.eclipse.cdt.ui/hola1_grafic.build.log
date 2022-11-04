@@ -1,0 +1,10 @@
+10:37:00 **** Incremental Build of configuration Debug for project hola1_grafic ****
+make -j8 all 
+arm-none-eabi-size   hola1_grafic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  77280	    156	  39276	 116712	  1c7e8	hola1_grafic.elf
+Finished building: default.size.stdout
+ 
+
+10:37:02 Build Finished. 0 errors, 0 warnings. (took 2s.78ms)
+

@@ -1,0 +1,17 @@
+18:14:08 **** Incremental Build of configuration Debug for project EjEMPLO5_Timers_P ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "EjEMPLO5_Timers_P.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\HP\Documents\GitHub\STM32_CAS_UTEC\EjEMPLO5_Timers_P\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EjEMPLO5_Timers_P.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EjEMPLO5_Timers_P.elf
+ 
+arm-none-eabi-size   EjEMPLO5_Timers_P.elf 
+arm-none-eabi-objdump -h -S  EjEMPLO5_Timers_P.elf  > "EjEMPLO5_Timers_P.list"
+   text	   data	    bss	    dec	    hex	filename
+  18112	     20	   1852	  19984	   4e10	EjEMPLO5_Timers_P.elf
+Finished building: default.size.stdout
+ 
+Finished building: EjEMPLO5_Timers_P.list
+ 
+
+18:14:10 Build Finished. 0 errors, 0 warnings. (took 1s.999ms)
+
